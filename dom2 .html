@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p id="demo">click on this button</p>
+  <!-- <button onclick="displaydate()">show a time</button>   -->
+   <button id="btn1">show time</button>
+  <script>
+    document .getElementById("btn1").onclick= displaydate
+    function displaydate(){
+    document .getElementById("demo").innerHTML= Date()
+    }
+  </script>
+</body>
+</html>
